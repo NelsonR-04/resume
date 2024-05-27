@@ -28,6 +28,8 @@ export interface Hero {
 }
 
 interface HeroActionItem {
+  target?: string;
+  rel?: string;
   href: string;
   text: string;
   primary?: boolean;
