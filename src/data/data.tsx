@@ -344,13 +344,13 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Santiago, Chile',
+      href: 'https://www.google.com/maps/place/Santiago,+Regi%C3%B3n+Metropolitana/@-33.4723517,-70.9594812,10z/',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@NelsonR__',
+      href: 'https://www.instagram.com/nelsonr__/',
     },
     {
       type: ContactType.Github,
