@@ -1,7 +1,6 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  // BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
@@ -12,17 +11,13 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/eddiebauer.webp';
+import porfolioImage3 from '../images/portfolio/entel.jpg';
+import porfolioImage7 from '../images/portfolio/nulogic.jpg';
+import porfolioImage6 from '../images/portfolio/reebok.jpg';
+import porfolioImage5 from '../images/portfolio/roadrunnersports.jpg';
+import porfolioImage4 from '../images/portfolio/walmart.jpg';
+import porfolioImage2 from '../images/portfolio/wildfork.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -72,7 +67,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Nulogig.io</strong> helping build a modern, mobile-first, domain
+        at <strong className="text-stone-100">Nulogic.io</strong> helping build a modern, mobile-first, domain
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -103,14 +98,18 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">I'm a passionate and skilled Fullstack Developer with a strong focus on frontend development. With expertise in a wide range of technologies, I am well-versed in React, Next.js, TypeScript, JavaScript, Node.js, GraphQL, MongoDB, and Content Management Systems (CMS) integrations.</p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">In my journey as a developer, I have honed my skills in crafting dynamic and responsive user interfaces using React and Next.js. Leveraging the power of TypeScript and JavaScript, I strive to deliver clean and maintainable code that ensures robust and scalable applications.</p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">Let's collaborate and build remarkable web experiences together!</p>
+    </>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Santiago, CL', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Venezuelan', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Tech, gym, music, photography, exploring new places', Icon: SparklesIcon},
     {label: 'Study', text: 'Simon Bolivar University', Icon: AcademicCapIcon},
     // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
@@ -124,50 +123,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Spanish',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'English',
         level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
@@ -179,12 +140,54 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'Android Native (Kotlin)',
         level: 4,
       },
       {
-        name: 'Swift',
+        name: 'Flutter',
+        level: 2,
+      },
+    ],
+  },
+  {
+    name: 'Frontend development',
+    skills: [
+      {
+        name: 'React / Nextjs',
+        level: 9,
+      },
+      {
+        name: 'Angular',
         level: 3,
+      },
+      {
+        name: 'Vue',
+        level: 3,
+      },
+      {
+        name: 'Typescript',
+        level: 8,
+      },
+      {
+        name: 'GraphQL',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Backend development',
+    skills: [
+      {
+        name: 'Node.js',
+        level: 8,
+      },
+      {
+        name: 'Python',
+        level: 6,
+      },
+      {
+        name: 'Golang',
+        level: 2,
       },
     ],
   },
@@ -195,27 +198,27 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Eddie Bauer',
+    description: 'Outdoor retail clothing company',
+    url: 'https://eddiebauer.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Wild Fork Foods (US, CA, MX)',
+    description: '',
+    url: 'https://wildforkfoods.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
+    title: 'Entel Chile',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://entel.cl',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
+    title: 'Walmart Chile',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://lider.cl',
     image: porfolioImage4,
   },
   {
@@ -236,30 +239,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage7,
   },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
 ];
 
 /**
@@ -267,16 +246,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
+    date: 'September 2013',
+    location: 'Simon Bolivar University',
     title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <></>,
   },
 ];
 
@@ -311,21 +284,21 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    // {
+    //   name: 'John Doe',
+    //   text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    // },
+    // {
+    //   name: 'Jane Doe',
+    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    // },
+    // {
+    //   name: 'Someone else',
+    //   text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    // },
   ],
 };
 
@@ -334,8 +307,8 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: '',
+  description: '',
   items: [
     {
       type: ContactType.Email,
