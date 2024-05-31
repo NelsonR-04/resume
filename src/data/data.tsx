@@ -205,38 +205,38 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Wild Fork Foods (US, CA, MX)',
-    description: '',
+    description: 'Food company',
     url: 'https://wildforkfoods.com/',
     image: porfolioImage2,
   },
   {
     title: 'Entel Chile',
-    description: 'Give a short description of your project here.',
+    description: 'Mobile Network Operator company',
     url: 'https://entel.cl',
     image: porfolioImage3,
   },
   {
     title: 'Walmart Chile',
-    description: 'Give a short description of your project here.',
+    description: 'Retail company',
     url: 'https://lider.cl',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Road Runner Sports',
+    description: 'Road Runner',
+    url: 'https://roadrunnersports.com',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Reebok',
+    description: 'Reebok',
+    url: 'https://reebok.com',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Nulogic',
+    description: 'Nulogic',
+    url: 'https://nulogic.io',
     image: porfolioImage7,
   },
 ];
@@ -255,14 +255,24 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '',
+    location: 'Walmart Chile',
+    title: 'Full-stack Developer / Mobile Developer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <>
+        <p>• Support on Order Management System on a Legacy system process using C#.</p>
+        <p>• Migration from OMS to use a decentralized system based on events from Apache Kafka and Python.</p>
+        <p>• Managing checkout orders on OMS database, SQL.</p>
+        <p>• Managing order event driven system from Kafka topics and monitoring using Azure Logs</p>
+        <p>• Development of Back-to-frontend service to be able to read and store relevant order information for Customer Pickup</p>
+        <p>• Android Native app development to increase efficiency on Pickup process on stores, using Kotlin and Jetpack Compose</p>
+        <p>• Migration to existent Android Native App to React Native + Typescript</p>
+        <p>• Single Sign On integration for user access through a group directory</p>
+        <p>• Creation of APIs to Receive, Store and Dispense orders verifying customer and store data.</p>
+        <p>• Implement a custom Barcode/QR scanner on the app.</p>
+        <p>• Creation of Grafana Dashboards and monitoring logs through Splunk.</p>
+        <p>• Automation of web tasks using Python and Selenium.</p>
+      </>
     ),
   },
   {
