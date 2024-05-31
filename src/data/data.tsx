@@ -255,9 +255,9 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '',
-    location: 'Walmart Chile',
-    title: 'Full-stack Developer / Mobile Developer',
+    date: ' ',
+    location: 'Chile (Remote)',
+    title: 'Walmart, Full-stack Developer / Mobile Developer',
     content: (
       <>
         <p>• Support on Order Management System on a Legacy system process using C#.</p>
@@ -276,14 +276,75 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: ' ',
+    location: 'US / CA / MX / CL (Remote)',
+    title: 'Wildfork Foods, Frontend Developer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <>
+        <p>• Set up dynamic components and page model integration with CMS (Contentful) using GraphQL queries.</p>
+        <p>• Klaviyo integration for customer mailing lists.</p>
+        <p>• Implemented internationalization for the website to be available with translations for fr-CA, en-US, and Spanish.</p>
+        <p>• Checkout process integration with add to cart items.</p>
+        <p>• Creation of dynamic Product List Page.</p>
+      </>
+    ),
+  },
+  {
+    date: ' ',
+    location: 'United States (Remote)',
+    title: 'Roadrunner Sports, Fullstack Developer',
+    content: (
+      <>
+        <p>• Complete UI/UX redesign and migration of the current website to NextJs, Redux, Sass and Webpack.</p>
+        <p>• Creation of Product list page, Product detail, Checkout, Cart and account managing pages.</p>
+        <p>• Created several reusable React components to be used across the entire website.</p>
+        <p>• Forms handling on API requests.</p>
+        <p>• Handling the failure scenarios of the Payment process.</p>
+        <p>• Project Delivery and Support.</p>
+        <p>• Set up dynamic components and page model integration with CMS (Contentful) using GraphQL queries.</p>
+      </>
+    ),
+  },
+  {
+    date: ' ',
+    location: 'Chile (Hybrid)',
+    title: 'Entel, Frontend Developer',
+    content: (
+      <>
+        <p>• Implementation of new features and redesign for ecommerce portal, as a Frontend ReactJS Developer.</p>
+        <p>• Implementation of DataLayer actions on entire website.</p>
+        <p>• Creation of Cart and Checkout managing process.</p>
+        <p>• Verify identity of customer to be able to port from another mobile phone operator.</p>
+        <p>• Development of reusable React components to be used across the entire website.</p>
+        <p>• Creation of Home, Account, PLP and PDP pages.</p>
+        <p>• Project Delivery and Support.</p>
+      </>
+    ),
+  },
+  {
+    date: ' ',
+    location: 'United States (Remote)',
+    title: 'Eddie Bauer / Reebok from Sparc Group, Fullstack Developer',
+    content: (
+      <>
+        <p>• Part of a team of 5 people in charge to implement the new payment methods to integrate Vertex, a tax platform to calculate and manage taxes for US and Canada on the e-commerce website <a href="https://www.eddiebauer.com/">https://www.eddiebauer.com/</a> / <a href="https://www.eddiebauer.ca/">https://www.eddiebauer.ca/</a></p>
+        <p>• Complete implementation of the experience from the integration with Vertex tax platform and internal microservices for order data management to deployment on the website and complete redesign of the checkout process on the e-commerce website.</p>
+        <p>• Implemented the Adventure Rewards project, Gift Card (Buyatab), and redesign of the user experience on the checkout process pages. End to end.</p>
+        <p>• Klarna integration as a payment method so the user could buy with credit.</p>
+      </>
+    ),
+  },
+  {
+    date: ' ',
+    location: 'Chile (Remote)',
+    title: 'Nulogic.io, Fullstack Developer',
+    content: (
+      <>
+        <p>• Part of a team of 5 people in charge to implement the new payment methods to integrate Vertex, a tax platform to calculate and manage taxes for US and Canada on the e-commerce website <a href="https://www.eddiebauer.com/">https://www.eddiebauer.com/</a> / <a href="https://www.eddiebauer.ca/">https://www.eddiebauer.ca/</a></p>
+        <p>• Complete implementation of the experience from the integration with Vertex tax platform and internal microservices for order data management to deployment on the website and complete redesign of the checkout process on the e-commerce website.</p>
+        <p>• Implemented the Adventure Rewards project, Gift Card (Buyatab), and redesign of the user experience on the checkout process pages. End to end.</p>
+        <p>• Klarna integration as a payment method so the user could buy with credit.</p>
+      </>
     ),
   },
 ];
