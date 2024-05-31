@@ -248,7 +248,7 @@ export const education: TimelineItem[] = [
   {
     date: 'September 2013',
     location: 'Simon Bolivar University',
-    title: 'Masters in Beer tasting',
+    title: 'Electronics Technician',
     content: <></>,
   },
 ];
