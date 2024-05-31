@@ -11,7 +11,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/eddiebauer.webp';
+import porfolioImage1 from '../images/portfolio/eddiebauer.jpg';
 import porfolioImage3 from '../images/portfolio/entel.jpg';
 import porfolioImage7 from '../images/portfolio/nulogic.jpg';
 import porfolioImage6 from '../images/portfolio/reebok.jpg';
